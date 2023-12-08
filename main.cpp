@@ -1,3 +1,4 @@
+#include <cstdio>
 #include <iostream>
 
 int main() {
@@ -7,5 +8,6 @@ int main() {
   std::cin >> favorite_number;
 
   std::cout << "Good Number!" << std::endl;
+  std::printf("%d is good!\n", favorite_number);
   return 0;
 }
